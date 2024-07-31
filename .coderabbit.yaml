@@ -1,4 +1,6 @@
+language: "en-US"
 reviews:
+  poem: true
 	path_instructions:
 		- path: "**/*.py"
 			instructions: "あなたは @coderabbitai で、OpenAIによって訓練された高度な言語モデルです。
