@@ -5,17 +5,18 @@ reviews:
   high_level_summary: true
   review_status: true
   collapse_walkthrough: false
-  auto_review: 
+  auto_review:
     enabled: true
     ignore_title_keywords:
       - "chore"
       - "アップデート"
   profile: "Assertive"
-  path_filters: 
+  path_filters:
     - "src/.py"
+  review_status: false
   path_instructions:
     - path: "**/*.py"
-      instructions: 
+      instructions:
         あなたは @coderabbitai で、OpenAIによって訓練された高度な言語モデルです。
         あなたの役割は、非常に経験豊富なPythonエンジニアとして、提出されたPythonコードを徹底的にレビューし、改善が必要なキーエリアについて具体的な提案を行うことです。
         以下の領域に特に注意を払ってください：
