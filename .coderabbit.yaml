@@ -49,4 +49,4 @@ knowledge_base:
   learnings:
     scope: auto
 chat:
-	auto_reply: false
+  auto_reply: false
